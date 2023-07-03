@@ -1,53 +1,41 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useState } from 'react';
+import { SliderData } from './SliderData';
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-export const ImageSlider = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+const ImageSlider = ({ slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
   return (
-    <Slider {...settings}>
-      <div>
-        <img
-          decoding="async"
-          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-          alt="Image 1"
-          data-lazy-src="image1.jpg"
-        />
-        <noscript>
-          <img decoding="async" src="image1.jpg" alt="Image 1" />
-        </noscript>
-      </div>
-      <div>
-        <img
-          decoding="async"
-          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-          alt="Image 2"
-          data-lazy-src="image2.jpg"
-        />
-        <noscript>
-          <img decoding="async" src="image2.jpg" alt="Image 2" />
-        </noscript>
-      </div>
-      <div>
-        <img
-          decoding="async"
-          src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
-          alt="Image 3"
-          data-lazy-src="image3.jpg"
-        />
-        <noscript>
-          <img decoding="async" src="image3.jpg" alt="Image 3" />
-        </noscript>
-      </div>
-    </Slider>
+    <section className='slider'>
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      {SliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? 'slide active' : 'slide'}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt='travel image' className='image' />
+            )}
+          </div>
+        );
+      })}
+    </section>
   );
 };
+
+export default ImageSlider;

@@ -1,9 +1,11 @@
-import React from 'react'
-import ImageSlider from "../components/ImageSlider"
+import ImageSlider from '../components/ImageSlider';
+import { SliderData } from '../components/SliderData';
+import "./Home.css"
+
 export default function Home() {
   return (
     <div>
-      <ImageSlider/>
+      <ImageSlider slides={SliderData} />
     </div>
   )
 }
