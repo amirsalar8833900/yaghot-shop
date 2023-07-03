@@ -1,0 +1,39 @@
+.nav{
+    height: 100px;
+    background-color: #A0C49D;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 50px;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+.right .active{
+    background:  #232b22;
+    color: #C4D7B2;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.right a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #E1ECC8;
+}
+.left a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #E1ECC8;
+}
