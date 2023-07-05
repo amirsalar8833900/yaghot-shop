@@ -10,9 +10,9 @@ export default function Navbar() {
        <Link to="/"> یاقوت</Link>
       </div>
       <div className="right">
-        <NavLink to="/accessories"> اکسسوری</NavLink>
+        <NavLink to="/accessiroes"> اکسسوری</NavLink>
         <NavLink to="/beauty"> لوازم آرایشی</NavLink>
-        <NavLink to="/jewerly"> بدایجات</NavLink>
+        <NavLink to="/jewrely"> بدایجات</NavLink>
         <NavLink to="/parfum"> ادکلن</NavLink>
         <NavLink to="/about"> درباره ما</NavLink>
       </div>

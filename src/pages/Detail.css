@@ -1,0 +1,17 @@
+.detail img{
+width: 400px ;
+height: 500px;
+border-radius: 20px;
+}
+.detail{
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.detail h2{
+    color:   #c1d0b5;
+    
+}

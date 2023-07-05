@@ -1,11 +1,11 @@
 import React from "react";
 import { UseFetch } from "../hooks/UseFetch";
-import "./beauty.css"
+import { Link } from "react-router-dom";
 
 export default function Beauty() {
   const { data, isLoading, error } = UseFetch("http://localhost:3000/beauty");
   return (
-    <div className="beauty-list">
+    <div className="list">
       {error && <p className="error">{error}</p>}
       {isLoading && <p className="loadinng">loading ...</p>}
       {data &&
@@ -14,6 +14,7 @@ export default function Beauty() {
             <img src={b.image} alt="beauty" />
             <h2>{b.title}</h2>
             <p>{b.price}</p>
+            <Link to={`./detail/${b.id}`}>بیشتر ...</Link>
           </div>
         ))}
     </div>
