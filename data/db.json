@@ -1,0 +1,187 @@
+{
+    "slider" : [
+        {
+            "id" : "1",
+            "title" : "کش",
+            "image" : "/images/accessories 1.jpg",
+            "price" : "25 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "2",
+            "title" : "گردنبند",
+            "image" : "/images/jewerly 4.jpg",
+            "price" : "325 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "3",
+            "title" : "بادی اسپلش ویکتوریا",
+            "image" : "/images/parfum 5.jpg",
+            "price" : "195 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "4",
+            "title" : "ادکلن ساواج",
+            "image" : "/images/parfum 1.jpg",
+            "price" : "585 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "5",
+            "title" : "انگشتر",
+            "image" : "/images/jewerly 2.jpg",
+            "price" : "225 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        }
+    ],
+    "accessiroes" :[
+        {
+            "id" : "6",
+            "title" : "کش",
+            "image" : "/images/accessories 1.jpg",
+            "price" : "25 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "7",
+            "title" : "گیره",
+            "image" : "/images/accessories 2.jpg",
+            "price" : "30 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "8",
+            "title" : "گیره",
+            "image" : "/images/accessories 3.jpg",
+            "price" : "20 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "9",
+            "title" : "کلیپس",
+            "image" : "/images/accessories 4.jpg",
+            "price" : "55 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "10",
+            "title" : "کلیپس",
+            "image" : "/images/accessories 5.jpg",
+            "price" : "130 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        }
+    ],
+    "jewrly" : [
+        {
+            "id" : "11",
+            "title" : "انگشتر",
+            "image" : "/images/jewerly 1.jpg",
+            "price" : "225 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "12",
+            "title" : "انگشتر",
+            "image" : "/images/jewerly 2.jpg",
+            "price" : "225 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "13",
+            "title" : "گردنبند",
+            "image" : "/images/jewerly 3.jpg",
+            "price" : "285 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "14",
+            "title" : "گردنبند",
+            "image" : "/images/jewerly 4.jpg",
+            "price" : "325 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "15",
+            "title" : "گوشواره",
+            "image" : "/images/jewerly 5.jpg",
+            "price" : "275 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        }
+    ],
+    "beauty" : [
+        {
+            "id" : "16",
+            "title" : "کرم آبرسان",
+            "image" : "/images/beauty 1.jpg",
+            "price" : "125 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "17",
+            "title" : "ریمل",
+            "image" : "/images/beauty 2.jpg",
+            "price" : "185 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "18",
+            "title" : "شت براش حرفه ای",
+            "image" : "/images/beauty 3.jpg",
+            "price" : "235 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "19",
+            "title" : "خط چشم",
+            "image" : "/images/beauty 4.jpg",
+            "price" : "145 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "20",
+            "title" : "رژ مایع",
+            "image" : "/images/beauty 5.jpg",
+            "price" : "85 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        }
+    ],
+    "parfum" : [
+        {
+            "id" : "21",
+            "title" : "ادکلن ساواج",
+            "image" : "/images/parfum 1.jpg",
+            "price" : "585 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "22",
+            "title" : "ادکلن اسکاندال",
+            "image" : "/images/parfum 2.jpg",
+            "price" : "635 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "23",
+            "title" : "ادکلن اویدرم",
+            "image" : "/images/parfum 3.jpg",
+            "price" : "740 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "24",
+            "title" : "مام رکسونا",
+            "image" : "/images/parfum 4.jpg",
+            "price" : "110 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        },
+        {
+            "id" : "25",
+            "title" : "بادی اسپلش ویکتوریا",
+            "image" : "/images/parfum 5.jpg",
+            "price" : "195 t",
+            "body" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, cumque dolorum, iusto facere exercitationem officiis autem molestias a non blanditiis sit magni! Distinctio nostrum ex consectetur adipisci odit et repudiandae!"
+        }
+    ]
+}
