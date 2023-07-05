@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Accessories from "./pages/Accessories";
 import Beauty from "./pages/Beauty";
 import Jewerly from "./pages/Jewerly";
@@ -11,15 +10,16 @@ import Detail from "./pages/Detail";
 import Detail1 from "./pages/Detail1";
 import Detail2 from "./pages/Detail2";
 import Detail3 from "./pages/Detail3";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/accessiroes" element={<Accessories />} />
           <Route path="/beauty" element={<Beauty />} />
           <Route path="/jewrely" element={<Jewerly />} />
@@ -30,6 +30,7 @@ function App() {
           <Route path="/jewrely/detail2/:id" element={<Detail2 />} />
           <Route path="/parfum/detail3/:id" element={<Detail3 />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

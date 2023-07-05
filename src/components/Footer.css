@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 200px;
+  height: 100px;
+  background-color: beige;
+  text-align: center;
+  padding-top: 35px;
+  justify-content: center;
+}
+.footer-img {
+  height: 100px;
+  margin: 5px 15px;
+}
+.footer-pic {
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.footer p {
+  font: 20px;
+  padding-top: 25px;
+}

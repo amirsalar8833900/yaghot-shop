@@ -14,7 +14,7 @@ export default function Navbar() {
         <NavLink to="/beauty"> لوازم آرایشی</NavLink>
         <NavLink to="/jewrely"> بدایجات</NavLink>
         <NavLink to="/parfum"> ادکلن</NavLink>
-        <NavLink to="/about"> درباره ما</NavLink>
+        {/* <NavLink to="/about"> درباره ما</NavLink> */}
       </div>
     </div>
   )
