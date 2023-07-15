@@ -10,6 +10,7 @@ import Detail from "./pages/Detail";
 import Detail1 from "./pages/Detail1";
 import Detail2 from "./pages/Detail2";
 import Detail3 from "./pages/Detail3";
+import Search from "./pages/Search";
 import Footer from "./components/Footer";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/beauty" element={<Beauty />} />
           <Route path="/jewrely" element={<Jewerly />} />
           <Route path="/parfum" element={<Parfum />} />
+          <Route path="/search" element={<Search />} />
 
           <Route path="/beauty/detail/:id" element={<Detail />} />
           <Route path="/accessiroes/detail1/:id" element={<Detail1 />} />
